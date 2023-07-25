@@ -20,7 +20,7 @@
 - [Contributing](#contributing)
 - [Issues](#issues)
 - [Acknowledgments](#acknowledgments)
-- [DpkgPackage](#How_to_install_Package)
+- [DpkgPackage](#DebianPackage)
 
 ## Installation
 
@@ -59,7 +59,7 @@ Contributions are welcome! Please read our Contribution Guidelines for more deta
 ### Issues
 If you encounter any problems or have questions, feel free to open an issue.
 
-### How to install Package
+### DebianPackage
 ```
 sudo dpkg -i ping2.deb
 ```
