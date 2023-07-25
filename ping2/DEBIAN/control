@@ -1,0 +1,10 @@
+Package: ping2
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: all
+Depends: python3
+Maintainer: Reza Bojnordi rezabojnordi2012@gmail.com
+Description: ping2 - IP Address Ping Utility
+ ping2 is a command-line utility for performing ping tests on one or multiple IP addresses. This Python-based tool allows users to quickly check the connectivity and response times of remote hosts or servers. It sends ICMP echo requests to the specified IP addresses and displays detailed information about packet loss, round-trip times (RTT), and time-to-live (TTL). The ping results are presented in a well-organized table format, making it easy to analyze the network health of various destinations at a glance. Whether you're a system administrator, network engineer, or simply troubleshooting network issues, ping2 provides a straightforward and efficient way to assess the status of multiple hosts simultaneously.
+
