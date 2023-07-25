@@ -27,4 +27,28 @@
 
 ```bash
 git clone https://github.com/rezabojnordi/ping2.git
+```
 
+### Change directory to the ping2 folder.
+```bash
+chmod +x ping2.py
+```
+### Usage
+To run the ping2 command, open a terminal and navigate to the ping2 directory. Then use the following syntax:
+``` bash
+./ping2.py <ip1> <ip2> ...
+
+```
+Replace <ip1>, <ip2>, etc., with the IP addresses you want to ping.
+
+
+### Example
+To ping Google's public DNS server (8.8.8.8) and Cloudflare's public DNS server (1.1.1.1), use the following command:
+```
+./ping2.py 8.8.8.8 1.1.1.1
+
+```
+### How to install Package
+```
+sudo dpkg -i ping2.deb
+```
