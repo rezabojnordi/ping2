@@ -20,6 +20,7 @@
 - [Contributing](#contributing)
 - [Issues](#issues)
 - [Acknowledgments](#acknowledgments)
+- [DpkgPackage](#How_to_install_Package)
 
 ## Installation
 
@@ -48,6 +49,16 @@ To ping Google's public DNS server (8.8.8.8) and Cloudflare's public DNS server 
 ./ping2.py 8.8.8.8 1.1.1.1
 
 ```
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Contributing
+Contributions are welcome! Please read our Contribution Guidelines for more details.
+
+### Issues
+If you encounter any problems or have questions, feel free to open an issue.
+
 ### How to install Package
 ```
 sudo dpkg -i ping2.deb
