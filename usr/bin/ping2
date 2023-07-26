@@ -27,11 +27,45 @@ def ping_ip(ip):
 
     return "Unknown Error"
 
+def print_help():
+    print("""
+Usage: ping2 [options] <ip1> <ip2> ...
+
+Description:
+  `ping2` is a Python-based command-line utility that allows you to ping multiple
+  IP addresses and displays the results in a tabular format. It sends ICMP echo
+  requests to the specified IP addresses and shows detailed information about
+  packet loss, round-trip times (RTT), and time-to-live (TTL).
+
+Options:
+  -h, --help     Display this help message and exit.
+  -v, --version  Show the version information.
+
+Examples:
+  1. Ping two IP addresses:
+     ping2 8.8.8.8 1.1.1.1
+
+  2. Ping multiple IP addresses:
+     ping2 8.8.8.8 1.1.1.1 192.168.1.1
+
+Additional Information:
+  For additional options and detailed information about `ping2`, please refer to
+  the project's GitHub repository: https://github.com/rezabojnordi/ping2
+
+Note:
+  - Make sure you have proper network connectivity to the target IP addresses.
+  - Use Ctrl+C to stop the ping process.
+  - IPv6 addresses are not supported in this version.
+    """)
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python ping2.py <ip1> <ip2> ...")
         return
-
+    if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
+        print_help()
+        return
     ips = sys.argv[1:]
     table = PrettyTable()
     table.field_names = ["IP Address", "Ping Status"]
