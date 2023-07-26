@@ -1,10 +1,6 @@
 # ping2 - IP Address Ping Utility
 
-![Ping2 Logo](./img/pinglogo.png)
-
-
-![alt text](./img/ping2.png)
-
+![Ping2 Logo](path/to/your/ping2_logo.png)
 
 ## Description
 
@@ -66,10 +62,4 @@ If you encounter any problems or have questions, feel free to open an issue.
 ### DebianPackage
 ```
 sudo dpkg -i ping2.deb
-```
-
-### How to use it
-
-```
-ping2 8.8.8.8 1.1.1.1 4.2.2.4 4.4.4
 ```
